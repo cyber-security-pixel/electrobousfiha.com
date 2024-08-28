@@ -1,0 +1,80 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ .header-center {
+    padding: 32px 0;
+    background: #254c95 !important;
+    position: relative;
+}
+.sp-megamenu .navbar-nav > li > a {
+    color:#fff !important;
+} 
+
+.contact-html div.text p.email {
+    color: #fff !important;
+}
+
+.sp-megamenu .home > a {
+    color: #ffd900 !important;
+}
+
+.header-logo .img  {
+    max-width: 160% !important;
+} 
+
+.no_products {
+    display: none !important;
+} 
+
+.mobile_layout .header-top-content .logo-categories {
+    background: #254c95 !important;
+
+}
+
+
+#products .product-miniature .product-container .product-image .product-flags .discount-percentage, .featured-products .product-miniature .product-container .product-image .product-flags .discount-percentage, .product-accessories .product-miniature .product-container .product-image .product-flags .discount-percentage, .product-miniature .product-container .product-image .product-flags .discount-percentage, .category-products .product-miniature .product-container .product-image .product-flags .discount-percentage {
+    z-index: 3;
+    left: auto;
+    right: 10px;
+    background: #fa0303 !important;
+  }
+
+.on-sale-label {
+    background: #F61900 !important;
+    left: auto;
+    font-size: x-small !important;
+    right: 10px;
+    z-index: 4;
+}
+
+.new-label {
+    background: #7CB3FF !important;
+    left: auto;
+    font-size: smaller !important;
+    right: 10px;
+    z-index: 4;
+}
+
+
+.moduletable .block-title:before {
+    content: "\f055" !important;
+    position: absolute;
+    font-family: fontawesome;
+    font-size: 18px;
+    color: #254c95 !important;
+    left: 12px;
+    top: 12px;
+    right: auto;
+    bottom: auto;
+}
+div.footer-social h3.block-title{
+    content: "" !important;
+}
+
+#layout-error .logo {
+    margin: 0 0 31px 0;
+    text-align: center;
+    background-color: #254c95 !important;
+}

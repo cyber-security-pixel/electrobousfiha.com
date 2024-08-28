@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#bon_manufacturers_block {
+	padding: 50px 0;
+}
+
+#bon_manufacturers_block .manufacturer_item {
+	margin-bottom: 30px;
+}
+
+#bon_manufacturers_block .manufacturer_item img {
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	transform: scale(1);
+}
+
+#bon_manufacturers_block .manufacturer_item a {
+	display: block;
+	overflow: hidden;
+}
+
+#bon_manufacturers_block .manufacturer_item a:hover img{
+	transform: scale(1.1);
+}
+
+#bon_manufacturers_block .owl-out-title h3 {
+	font-size: 30px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #000;
+}
+
+#bon_manufacturers_block .owl-out-title {
+	background: #fff;
+	display: inline-block;
+	padding: 10px 13px 10px 0;
+	position: relative;
+	z-index: 2;
+}
+
+#bon_manufacturers_block .manufacturers-home-title::after {
+	background: #dcdcde none repeat scroll 0 0;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+#bon_manufacturers_block .manufacturers-home-title {
+	margin-bottom: 20px;
+	position: relative;
+}
+
+
+#bon_manufacturers_block .owl-nav {
+	position: absolute;
+	right: -4px;
+	bottom: 0;
+}
+#bon_manufacturers_block .owl-theme .owl-nav [class*="owl-"] {
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#bon_manufacturers_block .owl-theme .owl-nav [class*="owl-"]:hover {
+	background: #333;
+}
+#bon_manufacturers_block .owl-theme .owl-dots .owl-dot.active span,
+#bon_manufacturers_block .owl-theme .owl-dots .owl-dot:hover span {
+	background: #333;
+}
+
+.bon_manufacture_product {
+	padding: 20px;
+}
+.bon_manufacture_product_image img {
+	max-width: 100%;
+	height: auto;
+}
